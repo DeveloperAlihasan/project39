@@ -1,0 +1,252 @@
+@media(max-width:1500px){
+    .fix-width {
+        width: 100%;
+        margin: auto;
+    }
+    .mobile-menu {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@media(max-width:1400px){
+    .fix-width {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media(max-width:1300px){
+
+    .blog-right {
+        float: right;
+        width: 65%;
+        width: 460px;
+        height: auto;
+        margin: 5px 180px;
+    }
+    
+}
+@media(max-width:1250px){
+
+    .blog-right {
+        float: right;
+        width: 65%;
+        width: 460px;
+        height: auto;
+        margin: 0px 135px;
+    }
+    
+
+
+
+@media(max-width:1200px){
+    .blog-picther {
+        width: 100%;
+        text-align: center;
+    }
+
+    .blog-right {
+        width: 100%;
+        height: auto;
+        margin: 5px -6px;
+    }
+}
+
+@media(max-width:1100px){
+    .benar-text {
+        transform: translateX(360px);
+        width: 100%;
+    }
+
+    .locetion {
+        transform: translateX(-60px);
+    }
+}
+
+@media(max-width:1000px){
+
+    .service-item {
+        float: left;
+        width: 30%;
+        margin-left: 85px;
+    }
+    .about {
+        margin-top: 300px;
+    }
+}
+
+@media(max-width:900px){
+    .menu-right ul li a {
+        padding: 0px 10px;
+        font-size: 14px;
+    }
+    .benar-text {
+        transform: translateX(270px);
+        width: 100%;
+    }
+    
+}
+}
+
+@media(max-width:800px){
+ 
+    .benar-text {
+        transform: translateX(190px);
+        width: 100%;
+    }
+  
+}
+
+@media(max-width:790px){
+    .menu-right ul li a {
+        padding: 0px 5px;
+        font-size: 12px;
+    }
+
+    .contact {
+        background-color: #ddd;
+        padding-bottom: 200px;
+        margin-top: 15px;
+    }
+    .locetion {
+        width: 100%;
+        text-align: center;
+        transform: translateX(0);
+    }
+    .gmail{
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        transform: translateX(0);
+    }
+    .phone {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        transform: translateX(0);
+    }
+}
+
+@media(max-width:700px){
+    .mobile-menu {
+        opacity: 1;
+        visibility: visible;
+    }
+    .mobile-menu {
+        position: absolute;
+        top: 24px;
+        right: 70px;
+    }
+
+    .menu-right ul {
+        margin-right: 80px;
+        line-height: 65px;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .about {
+        margin-top: 420px;
+    }
+}
+
+@media(max-width:600px){
+
+    .benar-text {
+        transform: translateX(98px);
+    }
+}
+
+@media(max-width:500px){
+
+    .benar-text {
+        transform: translateX(-30px);
+    }
+    .benar h1 {
+        letter-spacing: 3px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .benar p {
+        margin-top: 11px;
+        padding: 10px 3px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .benar a {
+        position: absolute;
+        top: 110px;
+        left: 192px;
+       
+    }
+    .service-item {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .about {
+        margin-top: 568px;
+    }
+    .contact {
+        background-color: #ddd;
+        padding: 124px;
+        margin-top: 15px;
+    }
+    .locetion {
+        width: 100%;
+        text-align: center;
+        transform: translateX(0);
+    }
+    .contact {
+        background-color: #ddd;
+        margin-top: 15px;
+        padding-bottom: 200px;
+    }
+    .footer li a {
+        padding: 19px;
+    }
+
+}
+
+@media(max-width:400px){
+    .mobile-menu {
+        position: absolute;
+        top: 24px;
+        right: 25px;
+    }
+    .benar-text {
+        transform: translateX(10px);
+    }
+    .benar h1 {
+        letter-spacing: 3px;
+        font-size: 20px;
+        text-align: center;
+        width: 290px;
+        margin-left: 22px;
+    }
+    .benar p {
+        margin-top: 11px;
+        padding: 15px 58px;
+        font-size: 15px;
+        text-align: center;
+        width: 200px;
+    }
+    .benar a {
+        position: absolute;
+        top: 110px;
+        left: 111px;
+    }
+    .contact {
+        background-color: #ddd;
+        padding: 124px;
+        margin-top: 15px;
+        padding-bottom: 220px;
+    }
+    .footer li a {
+        font-size: 18px;
+        padding: 15px;
+    }
+    .copy-right {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
